@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AppCenterCrashes
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func calculateButton_Did_tap(_ sender: Any) {
+        Crashes.generateTestCrash()
     }
     
 
